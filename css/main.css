@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
+/* 
+ PROJETO SITE VETERINÁRIO
+ */
+
+ html{
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+ }
+
+ /* HEADER */
+
+ #header-container {
+    background-color: #f8f1f1;
+    
+ }
+
+ 
+ .header{
+    padding: 0px 20px;
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .btn-header {
+    color: #19456b;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+
+    width: 179px;
+    height: 46px;
+    border: 2px solid #19456b;
+    border-radius: 90px;
+ }
+
+ /* Main Hero */
+
+ #hero-container {
+    background-color: #f8f1f1;
+    
+ }
+ .hero{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 20px;
+ }
+
+ .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+    
+ }
+
+ .hero-title{
+    align-self: flex-start;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #19456b;
+ }
+
+ .hero-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #11698e;
+ }
+
+ .btn-hero {
+    padding: 20px 40px;
+    background-color: #16c79a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff ;
+
+    width: 320px;
+    height: 60px;
+    border-radius: 90px;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+ }
+
+ .img-hero{
+    width: 100%;
+ }
+
+/* section services */
+
+#services-container{
+    background-color: #19456b;
+    margin: 0 auto;
+    padding: 48px 20px;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 48px;
+}
+.overtitle{
+    text-transform: uppercase;
+    color: #16c79a;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.title-service {
+    color: #fff5fd;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+
+/*  services card */
+
+
+.service-card{
+    background-color: #11698E ;
+    border-radius: 32px;
+    
+}
+
+.service-card__text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #fff;
+    padding: 32px;
+}
+
+.service-card__text h3 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.service-card__text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.img-service {
+    max-width: 100%;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+/* Section Location*/
+
+#location-container{
+    background-color: #f8f1f1;
+    padding-top: 48px;
+}
+
+.location {
+    padding: 0px 20px ;
+}
+
+.overtitle-location{
+    text-transform: uppercase;
+    color: #11698E;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.title-location {
+    color: #19456b;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+#location-container address {
+    color: #11698e;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* FOOTER */
+
+#footer-container {
+    background-color: #19456b;
+}
+
+.footer{
+    color: #fff;
+    padding: 48px 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.svg-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+

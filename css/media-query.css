@@ -1,0 +1,166 @@
+
+/* TABLET */
+@media screen  and (min-width: 768px ) and (max-width: 992px ) {
+
+    .header img {
+        width: 100px;
+    }
+    .services-list {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .overtitle-location{
+        
+        font-size: 16px;
+        line-height: 24px;
+    }
+    footer{
+        padding: 48px 20px;
+        
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .footer-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-text svg{
+        width: 200px;
+    }
+    .svg-footer img {
+        width: 50px;
+    }
+    footer span{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+/* DESKTOP*/
+
+@media screen  and (min-width: 993px ) {
+
+    .container {
+        max-width: 1280px;
+       margin: 0 auto;
+    }
+
+    #header-container {
+        padding: 0 72px ;
+
+     }
+     .btn-header {
+        padding: 12px 24px;
+        width: 197px;
+        height: 48px;
+     }
+    
+    .header img {
+        width: 120px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        padding: 48px 72px;
+     }
+    
+     .hero-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+     }
+     .hero-title{
+        width: 549px;
+        align-self: flex-start;
+        font-size: 56px;
+        line-height: 64px;
+     }
+     .hero-text p {
+        width: 549px;
+        font-size: 20px;
+        line-height: 28px; 
+     }
+
+     .btn-hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    
+        width: 276px;
+        height: 64px;
+        border-radius: 90px;
+    
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    
+     }
+    
+     /* section services */
+
+     #services-container{
+        padding: 96px 72px;
+    }
+    
+    .services-list {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+    .overtitle{
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .title-service {
+        font-weight: 800;
+        font-size: 44px;
+        line-height: 56px;
+    }
+    .service-card__text{
+        padding: 32px;
+    }
+
+    /* Section Location*/
+    #location-container{
+        padding: 96px  72px 0 ;
+    }
+
+    .overtitle-location{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .title-location {
+        font-weight: 800;
+        font-size: 44px;
+        line-height: 56px;
+    }
+    #location-container address {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #footer-container{
+        padding: 48px 72px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .svg-footer img {
+        width: 40px;
+    }
+    
+}
